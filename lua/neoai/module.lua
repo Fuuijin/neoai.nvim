@@ -2,8 +2,5 @@
 local M = {}
 
 ---@return string
-M.my_first_function = function()
-  return "hello world!"
-end
-
+M.hello = require("neoai.chat").say_hello
 return M
